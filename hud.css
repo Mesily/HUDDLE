@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    min-height: 100vh;
+    max-height: 100vh;
+    width: 100vh;
+    background-color: grey;
+    background-image: url("./images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 1rem;
+
+}
+
+.image {
+    width: auto;
+    height: auto;
+}
+
+.image-image {
+    width: 100%
+}
+
+.text {
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: 1.7rem;
+    line-height: 2rem;
+    color: white;
+}
+
+.texthead {
+    margin: 2rem 0 2rem;
+
+}
+
+.textpara {
+    margin-bottom: 2rem;
+}
+
+.link {
+    margin: 0 8.5rem;
+    border: 2px solid white;
+    padding: 0.7rem 4rem;
+    background-color: white;
+    color: purple;
+    border-radius: 1.5rem;
+    font-size: 2rem;
+
+}
+
+.footer {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+}
+
+.fa-brands {
+    display: flex;
+    font-size: 2rem;
+    border: 2px solid white;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    line-height: 3.5rem;
+    /* text-align: center; */
+   align-items: center;
+   justify-content: center;
+   margin: 2rem;
+
+
+}
+
+
+@media (min-width: 570px) {
+    .main {
+        display: flex;
+        flex-direction: row;
+        margin: 4rem 0 0 1rem;
+        gap: 3rem;
+    
+    }
+    .image {
+        width: 60;
+        height: auto;
+    }
+    .image-image {
+        width: 100%
+    }
+
+    .text {
+        width: 40%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1rem;
+        font-weight: 1.2rem;
+        line-height: 1.3rem;
+        color: white;
+        margin-right: 0.3rem;
+    }
+    .footer {
+        display: flex;
+        /* justify-self: center; */
+        justify-content:flex-end;
+    }
+
+    .link {
+        margin: 0 0.2rem 0 0.2rem;
+        border: 2px solid white;
+        padding: 0.7rem 4rem;
+        background-color: white;
+        color: purple;
+        border-radius: 1.5rem;
+        font-size: 1rem;
+    
+    }
+    .fa-brands {
+       margin: 0.5rem;
+       margin-top: 2rem;
+    }
+    
+}
